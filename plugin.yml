@@ -1,0 +1,15 @@
+name: LiftsUI
+api: 4.0.0
+main : Biswajit\UI
+version: 1.0.0
+author: Biswajit
+
+commands:
+  lift:
+    description: Open Lift Operator For Travel In Different Caves
+    permission: lift.cmd
+    
+permissions:
+  lift.cmd:
+    description: Permission to use lift command
+    default: true
